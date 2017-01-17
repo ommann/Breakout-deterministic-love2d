@@ -7,9 +7,9 @@ The game depends on [LÖVE](https://love2d.org/).
 
 The game has been implemented using [Entity-Component-System](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system) and [Observer-patterns](https://en.wikipedia.org/wiki/Observer_pattern).
 
-The game loop operates on a fixed time steps and all input events are stored as the game runs.
+The game loop operates on fixed time steps and all input events are stored as the game runs.
 This enables that the game can be recorded and later replayed exactly how it originally ran.
- More accurate description on the game loop can be read from the article [Fix your Timestep!](http://gafferongames.com/game-physics/fix-your-timestep/).
+More accurate description on the game loop can be read from the article [Fix your Timestep!](http://gafferongames.com/game-physics/fix-your-timestep/).
 
 More thorough documentation is available in Finnish. [Finnish documentation](https://www.dropbox.com/s/61xs206wls33o3s/Exercise_project_Breakout_Olli_Mannevaara.pdf?dl=0).
 
@@ -20,11 +20,12 @@ The following libraries and modules were used in the game:
 - [bump](https://github.com/kikito/bump.lua)
 - [bitser](https://github.com/gvx/bitser)
 
-The libraries have permissive licenses.
+The libraries have various permissive licenses.
 
 # How to play
 Pass the folder to [LÖVE](https://love2d.org/) to start playing.
 
+On windows:
 ```
 love.exe <location of the repository folder>
 ```
